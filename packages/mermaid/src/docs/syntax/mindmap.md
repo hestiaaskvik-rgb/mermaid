@@ -1,5 +1,126 @@
 # Mindmap
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapas Conceptuales - Modelos de Cambio Conductual</title>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 20px;
+    }
+    h2 {
+      color: #2c3e50;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .mermaid {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 1000px;
+    }
+  </style>
+</head>
+<body>
 
+  <h1 style="text-align:center;">Mapas Conceptuales - Modelos de Cambio Conductual</h1>
+
+  <!-- Proceso de Acción -->
+  <h2>1. Modelo del Proceso de Acción</h2>
+  <div class="mermaid">
+  graph TD
+    A[Proceso de Acción] --> B[Cogniciones iniciales]
+    B --> C[Percepciones de riesgo]
+    B --> D[Expectativas de resultados]
+    B --> E[Autoeficacia percibida]
+    A --> F[Motivación]
+    F --> G[Intenciones y metas]
+    A --> H[Volición]
+    H --> I[Planes de acción]
+    H --> J[Control de acción]
+    A --> K[Factores externos]
+    K --> L[Barreras]
+    K --> M[Recursos]
+  </div>
+
+  <!-- Cognitivo-Conductual -->
+  <h2>2. Modelo Cognitivo-Conductual</h2>
+  <div class="mermaid">
+  graph TD
+    A[Modelo Cognitivo-Conductual] --> B[Supuestos básicos]
+    B --> C[Pensamientos influyen en emociones y conducta]
+    B --> D[Conducta influye en cogniciones]
+    B --> E[Individuo = procesador activo]
+    A --> F[Estrategias de intervención]
+    F --> G[Reestructuración cognitiva]
+    F --> H[Condicionamiento operante]
+    F --> I[Autoinstrucciones y automanejo]
+    F --> J[Rol de familia y entorno]
+    A --> K[Objetivo]
+    K --> L[Sustituir conductas desadaptativas por saludables]
+  </div>
+
+  <!-- Etapas de Cambio -->
+  <h2>3. Modelo de Etapas de Cambio de Conducta</h2>
+  <div class="mermaid">
+  graph TD
+    A[Etapas de Cambio] --> B[Precontemplación]
+    B --> C[Contemplación]
+    C --> D[Preparación]
+    D --> E[Acción]
+    E --> F[Mantenimiento]
+    F --> G[Terminación]
+  </div>
+
+  <!-- Creencias sobre la Salud -->
+  <h2>4. Modelo de Creencias sobre la Salud</h2>
+  <div class="mermaid">
+  graph TD
+    A[Creencias sobre la Salud] --> B[Percepción individual]
+    B --> C[Vulnerabilidad percibida]
+    B --> D[Gravedad percibida]
+    B --> E[Beneficios percibidos]
+    B --> F[Costos percibidos]
+    A --> G[Factores modificantes]
+    G --> H[Demográficos]
+    G --> I[Psicosociales]
+    A --> J[Claves para la acción]
+    J --> K[Campañas de información]
+    J --> L[Consejos médicos]
+    J --> M[Modelos de referencia]
+    A --> N[Probabilidad de acción]
+    N --> O[Ejecución de conductas saludables]
+  </div>
+
+  <!-- Aprendizaje Social -->
+  <h2>5. Modelo de Aprendizaje Social</h2>
+  <div class="mermaid">
+  graph TD
+    A[Aprendizaje Social] --> B[Procesos cognitivos]
+    B --> C[Atención]
+    B --> D[Retención]
+    B --> E[Reproducción]
+    B --> F[Motivación]
+    A --> G[Conceptos clave]
+    G --> H[Autoeficacia]
+    G --> I[Autocontrol]
+    G --> J[Aprendizaje vicario]
+    G --> K[Autorreflexión]
+    A --> L[Resultados]
+    L --> M[Adopción de conductas saludables]
+    L --> N[Inhibición de conductas nocivas]
+  </div>
+
+</body>
+</html>
 > Mindmap: This is an experimental diagram for now. The syntax and properties can change in future releases. The syntax is stable except for the icon integration which is the experimental part.
 
 "A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added. Major ideas are connected directly to the central concept, and other ideas branch out from those major ideas." Wikipedia
